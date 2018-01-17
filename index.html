@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scuttlebutt Sigma.js</title>
+  <meta charset="utf-8">
+  <style>
+    html, body, #graph {
+      width: 100%;
+      height: 100%;
+      z-index: 5;
+    }
+
+    #controls {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 10;
+    }
+
+    #legend ul {
+      padding: 0;
+      list-style-type: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="controls">
+    <button id="layout-button">Stop layout</button>
+    <div id="legend"></div>
+  </div>
+  <div id="graph"></div>
+  <script type="text/javascript" src="./build/bundle.js"></script>
+</body>
+</html>

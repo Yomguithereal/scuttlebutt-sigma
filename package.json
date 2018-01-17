@@ -1,0 +1,30 @@
+{
+  "name": "scuttlebutt-sigma",
+  "version": "1.0.0",
+  "description": "An attempt at visualizing scuttlebutt networks using sigma.js.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "kotatsu serve --index index.html main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yomguithereal/scuttlebutt-sigma.git"
+  },
+  "author": "yomguithereal <kropotkinepiotr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yomguithereal/scuttlebutt-sigma/issues"
+  },
+  "homepage": "https://github.com/Yomguithereal/scuttlebutt-sigma#readme",
+  "devDependencies": {
+    "kotatsu": "^0.15.2"
+  },
+  "dependencies": {
+    "d3-scale": "^1.0.7",
+    "graphology": "^0.11.1",
+    "graphology-layout": "0.0.1",
+    "graphology-layout-forceatlas2": "^0.1.1",
+    "sigma": "^2.0.0-alpha8"
+  }
+}
