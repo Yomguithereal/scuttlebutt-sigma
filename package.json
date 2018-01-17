@@ -4,6 +4,7 @@
   "description": "An attempt at visualizing scuttlebutt networks using sigma.js.",
   "main": "index.js",
   "scripts": {
+    "build": "kotatsu build client main.js -o build/bundle.js --minify --no-source-maps --es2015",
     "dev": "kotatsu serve --index index.html main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
